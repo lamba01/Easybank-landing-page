@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/Hero';
 import Features from '../components/Features';
+import Articles from '@/components/Articles';
 // import Testimonials from '../components/Testimonials';
 // import CallToAction from '../components/CallToAction';
 // import Footer from '../components/Footer';
@@ -12,6 +13,7 @@ const Home = () => {
       <main >
         <HeroSection />
         <Features />
+        <Articles />
         {/* <HeroSection />
         <Features />
         <Testimonials />
