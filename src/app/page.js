@@ -4,7 +4,7 @@ import Features from '../components/Features';
 import Articles from '@/components/Articles';
 // import Testimonials from '../components/Testimonials';
 // import CallToAction from '../components/CallToAction';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -14,6 +14,7 @@ const Home = () => {
         <HeroSection />
         <Features />
         <Articles />
+        <Footer />
         {/* <HeroSection />
         <Features />
         <Testimonials />
