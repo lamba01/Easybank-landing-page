@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Rpository URL](https://github.com/lamba01/Easybank-landing-page)
+- Solution URL: [Repository URL](https://github.com/lamba01/Easybank-landing-page)
 - Live Site URL: [Live Site](https://easybank-landings-pages.vercel.app/)
 
 ## My process
