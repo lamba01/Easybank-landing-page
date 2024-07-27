@@ -6,11 +6,11 @@ import confetti from '../../public/images/image-confetti.jpg'
 
 const Articles = () => {
     return (
-        <section className="bg-white p-20">
+        <section className="bg-white md:p-20 py-10 px-6">
             <h2 className='text-2xl text-darkBlue py-4'>Latest Articles</h2>
-            <div className='flex flex-wrap gap-4 py-6'>
-                <div className='flex-1 min-w-[250px] max-w-[300px]'>
-                    <Image src={money} alt="money" className="h-48" />
+            <div className='flex md:flex-wrap flex-col md:flex-row md:gap-4 gap-6 py-6'>
+                <div className='flex-1 md:min-w-[250px] md:max-w-[300px] flex flex-col items-center md:items-start'>
+                    <Image src={money} alt="money" className="h-48 rounded-xl" />
                     <div className="p-6">
                         <p className="text-xs text-grayishBlue font-semibold">By Claire Robinson</p>
                         <h3 className='text-base text-darkBlue cursor-pointer hover:text-limeGreen py-2'>Receive money in any currency with no fees</h3>
@@ -19,8 +19,8 @@ const Articles = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex-1 min-w-[250px] max-w-[300px]'>
-                    <Image src={restaurant} alt="restaurant" className="h-48"/>
+                <div className='flex-1 md:min-w-[250px] md:max-w-[300px] flex flex-col items-center md:items-start'>
+                    <Image src={restaurant} alt="restaurant" className="h-48 rounded-xl"/>
                     <div className="p-6">
                         <p className="text-xs text-grayishBlue font-semibold">By Wilson Hutton</p>
                         <h3 className='text-base text-darkBlue cursor-pointer hover:text-limeGreen py-2'>Treat yourself without worrying about money</h3>
@@ -29,8 +29,8 @@ const Articles = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex-1 min-w-[250px] max-w-[300px]'>
-                    <Image src={plane} alt="plane" className="h-48" />
+                <div className='flex-1 md:min-w-[250px] md:max-w-[300px] flex flex-col items-center md:items-start'>
+                    <Image src={plane} alt="plane" className="h-48 rounded-xl" />
                     <div className="p-6">
                         <p className="text-xs text-grayishBlue font-semibold">By Wilson Hutton</p>
                         <h3 className='text-base text-darkBlue cursor-pointer hover:text-limeGreen py-2'>Take your Easybank card wherever you go</h3>
@@ -39,8 +39,8 @@ const Articles = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex-1 min-w-[250px] max-w-[300px]'>
-                    <Image src={confetti} alt="confetti" className="h-48" />
+                <div className='flex-1 md:min-w-[250px] md:max-w-[300px] flex flex-col items-center md:items-start'>
+                    <Image src={confetti} alt="confetti" className="h-48 rounded-xl" />
                     <div className="p-6">
                         <p className="text-xs text-grayishBlue font-semibold">By Claire Robinson</p>
                         <h3 className='text-base text-darkBlue cursor-pointer hover:text-limeGreen py-2'>Our invite-only Beta accounts are now live! </h3>

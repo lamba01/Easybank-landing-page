@@ -12,6 +12,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
           'custom-bg': `url('/images/bg-intro-desktop.svg')`,
+          'mobile-bg': `url('/images/bg-intro-mobile.svg')`,
           'gradient-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
       },
       colors: {       

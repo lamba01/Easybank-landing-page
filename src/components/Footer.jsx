@@ -9,8 +9,8 @@ import instagram from '../../public/images/icon-instagram.svg'
 
 const Footer = () => {
     return (
-        <footer className="bg-darkBlue text-white flex justify-between px-20 py-10">
-            <div className="flex flex-col gap-14 text-white">
+        <footer className="bg-darkBlue text-white flex md:flex-row flex-col items-center justify-between md:px-20 py-10">
+            <div className="flex flex-col md:gap-14 gap-6 text-white items-center">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="139"
@@ -38,26 +38,26 @@ const Footer = () => {
             </g>
           </svg>
                 <div className="flex gap-2">
-                    <Image src={facebook} alt="facebook"/>
-                    <Image src={youtube} alt="youtube"/>
-                    <Image src={twitter} alt="twitter"/>
-                    <Image src={pinterest} alt="pinterest"/>
-                    <Image src={instagram} alt="instagram"/>
+                    <Image src={facebook} alt="facebook" className="cursor-pointer"/>
+                    <Image src={youtube} alt="youtube" className="cursor-pointer"/>
+                    <Image src={twitter} alt="twitter" className="cursor-pointer"/>
+                    <Image src={pinterest} alt="pinterest" className="cursor-pointer"/>
+                    <Image src={instagram} alt="instagram" className="cursor-pointer"/>
                 </div>
             </div>
-            <div className="flex gap-20">               
-                <ul className="flex flex-col gap-4">
+            <div className="flex md:flex-row flex-col gap-4 items-center md:gap-20 py-6">               
+                <ul className="flex flex-col gap-4 md:items-start items-center">
                     <li className="hover:text-limeGreen cursor-pointer text-sm">About us</li>
                     <li className="hover:text-limeGreen cursor-pointer text-sm">Contact</li>
                     <li className="hover:text-limeGreen cursor-pointer text-sm">Blog</li>
                 </ul>
-                <ul className="flex flex-col gap-4">
+                <ul className="flex flex-col gap-4 md:items-start items-center">
                     <li className="hover:text-limeGreen cursor-pointer text-sm">Careers</li>
                     <li className="hover:text-limeGreen cursor-pointer text-sm">Support</li>
                     <li className="hover:text-limeGreen cursor-pointer text-sm">Privacy Policy</li>
                 </ul>
             </div>
-            <div className="flex flex-col gap-14 items-end">
+            <div className="flex flex-col md:gap-14 gap-6 md:items-end items-center">
                 <button className="bg-gradient-to-r from-limeGreen to-brightCyan text-white text-sm px-6 py-2 rounded-2xl hover:opacity-50">Request Invite</button>
                 <p className="text-sm text-grayishBlue"> © Easybank. All Rights Reserved</p>
             </div>
